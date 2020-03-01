@@ -2,12 +2,12 @@ import socket
 
 def Main():
 	host= "127.0.0.1"
-	port =5000
+	port =5001
 
 	s = socket.socket()
 	s.bind((host,port))
 	
-	s.listen(2)
+	s.listen(1)
 	
 	c,add = s.accept()
 	print("connection from: "+str(add))
