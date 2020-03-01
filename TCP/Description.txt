@@ -11,6 +11,6 @@ File Transfer Protocol (FTP)
 Email (SMTP)
 
 In this,we are going to create two python file
-One is client file i.e. tcpclient.py and second is tcpserver.py
+One is client file i.e. tcpclient.py and second is server file i.e. tcpserver.py
 tcpclient file first connect with tcpserver which is receiving point and then tcpclient will send the data(message) to the receiver.
 The receiver then send back the data in hash format to the client.
