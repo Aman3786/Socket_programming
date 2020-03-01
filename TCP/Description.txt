@@ -1,0 +1,16 @@
+Transmission Control Protocol (TCP) is a connection-oriented protocol that computers use to communicate over the internet. 
+It is one of the main protocols in TCP/IP networks
+TCP establishes a connection between a sender and receiver before data can be sent. 
+Data sent using a TCP protocol is guaranteed to be delivered to the receiver. If data is lost in transit it will recover the data and resend it.
+
+TCP is best suited to be used for applications :-
+Secure Shell (SSH)
+
+File Transfer Protocol (FTP)
+
+Email (SMTP)
+
+In this,we are going to create two python file
+One is client file i.e. tcpclient.py and second is tcpserver.py
+tcpclient file first connect with tcpserver which is receiving point and then tcpclient will send the data(message) to the receiver.
+The receiver then send back the data in hash format to the client.
