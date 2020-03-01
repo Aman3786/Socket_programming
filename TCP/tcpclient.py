@@ -2,7 +2,7 @@ import socket
 
 def Main():
 	host ="127.0.0.1"
-	port =5000
+	port =5001
 
 	s = socket.socket()
 	s.connect((host,port))
